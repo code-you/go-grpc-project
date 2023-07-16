@@ -47,7 +47,7 @@ protoc --go_out=. --go-grpc_out=. proto/greet.proto
 OR this -
 
 ```bash
-protoc --go_out=. --go_opt=module=github.com/akhil/basic-go-grpc --go-grpc_out=. --go-grpc_opt=module=githu
+protoc --go_out=. --go_opt=module=github.com/code-you/go-grpc-project --go-grpc_out=. --go-grpc_opt=module=githu
 b.com/code-you/go-grpc-project proto/greet.proto
 ```
 
